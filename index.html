@@ -34,11 +34,6 @@ mytime=setTimeout('SHOWTIME()',1000);
 <p>One of my hobbies is to <a class="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">rickroll</a> others.</p>
 <p>My another hobby is to eat and buy <a class="link" href="https://www.edibleinsects.com/product/pizza-superworms/">delicious food</a>.</p>
 <p>My still another hobby is to listen to popular musics, just like <a class="link" href="https://www.youtube.com/watch?v=XqZsoesa55w">this</a>, which is the most viewed video on Youtube.</p>
-
-
-
-
-
 <body onload=SHOWTIME();>
 <span id='ct' ></span>
 
@@ -46,10 +41,12 @@ mytime=setTimeout('SHOWTIME()',1000);
 </body>
 
 
-<audio controls muted autoplay loop>
+<audio controls autoplay="autoplay" loop>
   <source src="Never Gonna Give You Up.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
-
+<script>
+    document.getElementById('vid').play();
+</script>
 
 </html>
